@@ -1,0 +1,134 @@
+/* ------------------------------------
+	Header
+------------------------------------ */
+
+.main-header { background:#FFF;}
+.logo { line-height: 65px; }
+
+.user-links { line-height: 80px; }
+.user-links-toggler { float: right; color: #333; font-size: 18px; padding: 2px 8px; border: 1px solid #333; display: none; }
+
+.user-links .social-links { float: right; }
+.user-links .social-links a { display: inline-block; width: 35px; height: 35px; margin-left: -5px; line-height: 35px; text-align: center; font-size: 15px; transition: all 0.5s; }
+/*=============================================
+REDES SOCIALES
+=============================================*/
+
+/*FACEBOOK*/
+
+.user-links .social-links a.facebookBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.facebookNegro{
+	color:black;
+	background: white;
+}
+
+.user-links .social-links a.facebookColor{
+	color:white;
+	background: #4278c9;
+}
+
+/*YOUTUBE*/
+
+.user-links .social-links a.youtubeColor{
+	color:white;
+	background: #d6513e;
+}
+
+.user-links .social-links a.youtubeBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.youtubeNegro{
+	color:black;
+	background: white;
+}
+
+/*TWITTER*/
+
+.user-links .social-links a.twitterColor{
+	color:white;
+	background: #60b6ff;
+}
+
+.user-links .social-links a.twitterBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.twitterNegro{
+	color:black;
+	background: white;
+}
+
+/*GOOGLE PLUS*/
+
+.user-links .social-links a.google-plusColor{
+	color:white;
+	background: #f51919;
+}
+
+.user-links .social-links a.google-plusBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.google-plusNegro{
+	color:black;
+	background: white;
+}
+
+/*INSTAGRAM*/
+
+.user-links .social-links a.instagramColor{
+	color:white;
+	background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+
+}
+
+.user-links .social-links a.instagramBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.instagramNegro{
+	color:black;
+	background: white;
+}
+
+/*PINTEREST*/
+
+.user-links .social-links a.pinterestColor{
+	color:white;
+	background: #d11515;
+
+}
+
+.user-links .social-links a.pinterestBlanco{
+	color:white;
+	background: black;
+}
+
+.user-links .social-links a.pinterestNegro{
+	color:black;
+	background: white;
+}
+
+.user-links .account-links { float: right; font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: 700; text-transform: uppercase; margin-right: 30px; }
+.user-links .account-links a { display: inline-block; margin-right: 20px; color: #444; }
+.user-links .account-links a .fa { display: inline-block; margin-right: 5px; font-size: 13px; color: #f51919; }
+
+.user-links .secondary-menu { float: right; margin-right: 1px; font-family: 'Roboto', sans-serif; font-size: 12px; font-weight: normal; text-transform: uppercase; }
+.user-links .secondary-menu a { display: inline-block; margin: 0 10px; color: #999999; }
+
+.user-links.mobile { display: none; }
+.user-links.mobile  .social-links, 
+.user-links.mobile  .account-links,
+.user-links.mobile  .secondary-menu { float: none; margin: 0 auto; line-height: 1; }
+.barraSuperior{
+	height: 60px;
+}

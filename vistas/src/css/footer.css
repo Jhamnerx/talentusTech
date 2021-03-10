@@ -1,0 +1,41 @@
+/*=============================================
+FOOTER
+=============================================*/
+
+footer{
+	margin-top:20px;
+	border-top:8px solid #999;
+	background: #222;
+	padding:20px 0;
+}
+
+
+.infoContacto h5{
+	color:#999;
+	font-size: 15px;
+}
+
+.formContacto h4{
+	color:#666;
+	font-size: 14px;
+}
+
+.final{
+	padding:20px 0;
+	background: black;
+}
+.final h5{
+	font-size: 15px;
+}
+.final ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
+
+}
+
+.final .social ul li a i{
+	font-size:18px;
+	margin:0 1px;
+}

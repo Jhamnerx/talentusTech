@@ -1,0 +1,418 @@
+/*=============================================
+GLOBAL
+=============================================*/
+
+*{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubunt', sans-serif;
+}
+
+ul, ol{
+  padding:0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #3f3f3f;
+  -webkit-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
+.btnEstiloEstilo,
+.btnEstiloEstilo[type="submit"],
+.btnEstiloEstilo[type="submit"] {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+}
+a:hover {
+  color: #20408A;
+}
+/* Blocks */
+.site-section-cover {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .site-section-cover,
+  .site-section-cover .container {
+    position: relative;
+    z-index: 1; }
+  .site-section-cover,
+  .site-section-cover .container > .row {
+    padding: 5rem 0; }
+  .site-section-cover.overlay {
+    position: relative; }
+    .site-section-cover.overlay:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1; }
+  .site-section-cover.inner-page,
+  .site-section-cover.inner-page .container > .row {
+    height: auto;
+    min-height: auto;
+    padding: 2em 0; }
+  .site-section-cover.img-bg-section {
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .site-section-cover h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1; }
+    @media (max-width: 991.98px) {
+      .site-section-cover h1 {
+        font-size: 2rem; } }
+  .site-section-cover p {
+    font-size: 18px;
+    color: #fff; }
+
+
+.ftco-blocks-cover-1 .ftco-service-image-1 {
+  margin-top: -70px;
+  position: static; }
+
+.white-dots {
+  position: relative; }
+  .white-dots:before {
+    position: absolute;
+    content: "";
+    background-image: url("../images/white-dots.png");
+    z-index: -1;
+    background-repeat: repeat;
+    top: -50px;
+    left: -50px;
+    width: 100%;
+    height: 100%; }
+.servicios{
+  display: inline-block
+}
+.servicios h3{
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+
+/*=============================================
+LOADER
+=============================================*/
+#spinner-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+}
+
+.spinner-hidden {
+    opacity: 0;
+    z-index: -1;
+    animation: hiddenspinner 1s linear;
+}
+
+@keyframes hiddenspinner {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.spinner {
+    margin: 40vh auto;
+    width: 50px;
+    height: 90px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.spinner > div {
+    background-color: #052c52;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}
+/* ************************
+   01.3: Color
+   ********************* */
+.c1, .list-check li i, .theme-input-group button, .btn.btn-white span, .vdo-btn, .section-title h3, .page-title li, .appointment-modal .modal-dialog .modal-content .form-title, .header .header-main.style--one .main-menu #menu-button, .header .header-main.style--one .main-menu .nav li.current-menu-item > a, .header .header-main.style--one .main-menu .nav li.current-menu-parent > a, .header .header-main.style--one .main-menu .nav li ul li:hover > a, .offcanvas-wrapper .offcanvas-content .widget.widget_contact_info .single-info span, .single-blog-style--two .blog-content .post-meta li a:hover, .blog-details .post-meta li a:hover, .blog-details .post-tags li a:hover, .not-found-content p a, .coming-soon-content h1, #countdown li .single-countdown h4, #countdown li.seperator, .single-feature:hover .content h3, .single-process:hover .content h3, .about-nav-tab .nav-tabs .nav-link.active, .single-service .icon, .single-service:hover h4, .service-details .title, .pricing-navtab .nav-tabs .nav-link h4, .project-nav li.active, .single-team-member .team-info h4 {
+  color: #20408A;
+}
+
+.c1-bg, ::selection, .bg-overlay:after, .btn-inline:hover:after, #menu-button.menu-opened span::before, #menu-button.menu-opened span::after, -thumb.offcanvas-wrapper::-webkit-scrollbar, .single-blog-item .blog-hover {
+  background-color: #20408A;
+}
+
+.c1-bo, .owl-carousel .owl-nav button:before, .pagination li a:hover, .pagination li a.active,
+.pagination li span:hover,
+.pagination li span.active, blockquote, .widget.widget_tag_cloud .tagcloud a:hover, .about-nav-tab .nav-tabs .nav-link.active {
+  border-color: #20408A !important;
+}
+
+.heading, blockquote, .btn-inline, .page-title li:not(:last-child):after, .widget.widget_contact_info .single-info p, .back-to-top .back-toop-tooltip span, .header .header-main.sticky .main-menu .nav > li > a, .single-blog-style--two .blog-content .post-meta li a,
+.single-blog-style--two .blog-content .post-meta li span, .blog-details .post-meta li, .blog-details .post-tags li:first-child,
+.blog-details .post-share li:first-child, .about-nav-tab .nav-tabs .nav-link, .single-process:hover .content h3, .single-project-item .project-body .project-meta span {
+  color: #3f3f3f;
+}
+
+.heading-bg, .btn-inline:after, .header .header-main.style--one .main-menu .offcanvas-trigger span {
+  background-color: #3f3f3f;
+}
+
+.heading-bo {
+  border-color: #3f3f3f !important;
+}
+
+.text-color, .header .header-main.style--one .main-menu .nav li ul li a, .blog-details .post-meta li a, .blog-details .post-tags li a {
+  color: #818181;
+}
+
+.text-color-bg, .owl-carousel button.owl-dot, #menu-button span, #menu-button span:before, #menu-button span:after {
+  background-color: #818181;
+}
+
+.text-color-bo {
+  border-color: #818181 !important;
+}
+
+/* ************************
+   02.1: Common Classes
+   ********************* */
+/* Transitions */
+.trans2, .theme-input-group button, .btn:before, .btn:after,
+.btn span:before,
+.btn span:after, .back-to-top .back-toop-tooltip, .header .header-main.style--one .main-menu .nav li ul li ul, .single-blog-item .blog-hover, .single-blog-item .blog-button, .brand-logo img {
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.trans3, .owl-carousel .owl-nav button, .owl-carousel .owl-nav button svg, .owl-carousel .owl-nav button:before, .owl-carousel button.owl-dot, .bg-hover-gradient, .pagination li a,
+.pagination li span, .widget.widget_tag_cloud .tagcloud a, .single-service.style--two, .pricing-navtab .nav-tabs .nav-link, .bg-hover-gradient:after, .pagination li a:after,
+.pagination li span:after, .widget.widget_tag_cloud .tagcloud a:after, .single-service.style--two:after, .pricing-navtab .nav-tabs .nav-link:after, .theme-input-style, .btn-inline:after, .header .header-main.style--one .main-menu .offcanvas-trigger span, #menu-button span, #menu-button span:before, #menu-button span:after, .offcanvas-overlay, .single-blog-style--two .blog-content, .single-feature, .single-process, .single-feature .content h3, .single-process .content h3, .single-service, .single-service h4, .single-service.style--two svg path, .post-pagination .single-post-pagination .media-body a svg {
+  -webkit-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.trans4, .vdo-btn svg, .header .header-main .logo, .video-area.style--two .vdo-btn-two svg {
+  -webkit-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+/* ************************
+   02.4: Buttons
+   ********************* */
+.btnEstilo {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 52px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: .3s ease-in-out .2s;
+  -o-transition: .3s ease-in-out .2s;
+  transition: .3s ease-in-out .2s;
+  z-index: 9;
+  color: #20408A !important;
+  background-color: rgba(251, 66, 117, 0.1) !important;
+}
+
+.btnEstilo span {
+  display: block;
+  padding: 0 30px;
+}
+
+.btnEstilo:before, .btnEstilo:after,
+.btnEstilo span:before,
+.btnEstilo span:after {
+  content: "";
+  position: absolute;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.btnEstilo:before, .btnEstilo:after {
+  width: 0;
+  height: 2px;
+}
+
+.btnEstilo span:before,
+.btnEstilo span:after {
+  width: 2px;
+  height: 0;
+}
+
+.btnEstilo:before {
+  left: 50%;
+  top: 0;
+}
+
+.btnEstilo:after {
+  left: 50%;
+  bottom: 0;
+}
+
+.btnEstilo span:after {
+  top: 50%;
+  left: 0;
+}
+
+.btnEstilo span:before {
+  top: 50%;
+  right: 0;
+}
+
+.btnEstilo:hover:before, .btnEstilo:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.btnEstilo:hover span:before,
+.btnEstilo:hover span:after {
+  height: 100%;
+  top: 0;
+}
+
+.btnEstilo:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btnEstilo.btnEstilo-white {
+  background-color: #000 !important;
+}
+
+/* Gradient Background */
+.gradient-bg, .owl-carousel button.owl-dot.active, .bg-overlay:after, .bg-hover-gradient:after, .pagination li a:after,
+.pagination li span:after, .widget.widget_tag_cloud .tagcloud a:after, .single-service.style--two:after, .pricing-navtab .nav-tabs .nav-link:after, .theme-input-group input, .btn:before, .btn:after,
+.btn span:before,
+.btn span:after, .back-to-top, -thumb.offcanvas-wrapper::-webkit-scrollbar, .coming-soon-content h1 {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #20408A), color-stop(100%, #f35d46));
+  background: -webkit-linear-gradient(45deg, #20408A 0%, #f35d46 100%);
+  background: -o-linear-gradient(45deg, #20408A 0%, #f35d46 100%);
+  background: linear-gradient(45deg, #20408A 0%, #f35d46 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20408A', endColorstr='#f35d46',GradientType=1);
+}
+
+
+/*=============================================
+ ESTILOS DE BOTONES
+=============================================*/
+
+
+.boton {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+} 
+.goodsIntro_botonWrap .boton, .goodsIntro_botonWrap .goodsIntro_botonFav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.boton.line2 {
+    color: #fff;
+    background: #c00;
+    border-color: #c00;
+}
+.boton.line2:hover {
+    background: #cc5959;
+}
+
+.boton.big {
+    height: 50px;
+    width: 250px;
+    padding: 0 40px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.boton.middle {
+    height: 40px;
+    padding: 0 30px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.boton.wide {
+    width: 100%;
+}
+.boton.strong {
+    background: #ff8a00;
+    color: #fff;
+    border-color: #ff8a00;
+}
+
+.boton.strong:hover {
+    background: #ffc556;
+}
